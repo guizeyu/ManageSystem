@@ -2,7 +2,7 @@
 
 前端使用vue，elementui,axios
 
-后端使用springboot，mybatis，mybatisplus
+后端使用springboot，mybatis，mybatisplus,springboot副本中仅使用mybatis，springboot中用到了mybatisplus的代码生成器功能
 
 # Mybatis-plus
 
