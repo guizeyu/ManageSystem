@@ -1,0 +1,19 @@
+#这里所有的空格和缩进都是必要的，这是yml语言所要求的
+server:
+  port: 8081
+
+spring:
+  datasource:
+   driver-class-name: com.mysql.cj.jdbc.Driver
+   url: jdbc:mysql://localhost:3306/gzy?serverTimezone=GMT%2b8
+   username: root
+   password: 123456
+#扫描所有xml文件
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
